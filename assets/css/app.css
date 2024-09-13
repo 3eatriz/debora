@@ -1,0 +1,103 @@
+@import "global.css";
+
+/* components */
+
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/contact.css";
+@import "./components/button-cta.css";
+@import "./components/faq.css";
+@import "./components/cta.css";
+@import "./components/thanks.css";
+@import "./components/button-menu-mobile.css";
+
+/* pages */
+
+/* home */
+
+@import "./pages/home/hero.css";
+@import "./pages/home/sobre.css";
+@import "./pages/home/beneficios.css";
+@import "./pages/home/citacoes.css";
+@import "./pages/home/clients.css";
+@import "./pages/home/about.css";
+@import "./pages/home/blog.css";
+@import "./pages/home/digital.css";
+@import "./pages/home/solutions2.css";
+
+/* fale conosco */
+
+@import "./pages/contato/hero.css";
+@import "./pages/contato/contato.css";
+@import "./pages/contato/follow.css";
+@import "./pages/contato/local.css";
+
+/* Privacidade */
+
+@import "./pages/privacidade/politics.css";
+
+/* Wae */
+
+@import "./pages/wae/hero.css";
+@import "./pages/wae/manifest.css";
+@import "./pages/wae/history.css";
+@import "./pages/wae/numbers.css";
+@import "./pages/wae/slider.css";
+@import "./pages/wae/clients.css";
+@import "./pages/wae/clients2.css";
+
+/* Blog */
+
+@import "./pages/blog/card.css";
+@import "./pages/blog/hero.css";
+@import "./pages/blog/newsletter.css";
+@import "./pages/blog/recents.css";
+@import "./pages/blog/single.css";
+
+/* Financiamento */
+
+@import "./pages/financiamento/hero.css";
+@import "./pages/financiamento/option.css";
+@import "./pages/financiamento/who.css";
+
+/* Canais */
+
+@import "./pages/canais/hero.css";
+@import "./pages/canais/option.css";
+@import "./pages/canais/cta.css";
+
+/* Trabalhe */
+
+@import "./pages/trabalhe/hero.css";
+@import "./pages/trabalhe/who.css";
+@import "./pages/trabalhe/beneficios.css";
+@import "./pages/trabalhe/vantagens.css";
+@import "./pages/trabalhe/cta.css";
+
+/* Soluções */
+
+@import "./pages/solucoes/hero.css";
+@import "./pages/solucoes/solutions.css";
+@import "./pages/solucoes/academico.css";
+@import "./pages/solucoes/modulos.css";
+
+/* Programa */
+
+@import "./pages/programa/hero.css";
+@import "./pages/programa/advantage.css";
+@import "./pages/programa/recommendation.css";
+@import "./pages/programa/who.css";
+@import "./pages/programa/cta.css";
+
+/* Serviços */
+
+@import "./pages/servicos/hero.css";
+@import "./pages/servicos/abordagem.css";
+@import "./pages/servicos/solucao.css";
+@import "./pages/servicos/beneficios.css";
+
+/* Parceiros */
+
+@import "./pages/parceiros/cta.css";
+@import "./pages/parceiros/section3.css";
+@import "./pages/parceiros/parceiros.css";

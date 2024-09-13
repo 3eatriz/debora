@@ -1,0 +1,190 @@
+.section_contact {
+  padding: 80px 0;
+  border-radius: 56px 56px 0px 0px;
+  background: linear-gradient(90deg, #2979cc 0%, #125397 100%);
+}
+
+.section_contact .container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.left_contact {
+  width: 100%;
+  max-width: 520px;
+  position: sticky;
+  top: 80px;
+}
+
+.left_contact p:last-of-type {
+  margin-top: 48px;
+}
+
+.right_contact {
+  width: 100%;
+  max-width: 557px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 48px;
+}
+
+.card1_contact {
+  width: 300px;
+  position: absolute;
+  left: -110px;
+  bottom: 35px;
+}
+
+.card2_contact {
+  width: 200px;
+  position: absolute;
+  right: -100px;
+  bottom: 25%;
+}
+
+.wpcf7-form {
+  width: 100%;
+}
+
+.wpcf7-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.wpcf7-form div label {
+  width: 100%;
+}
+
+.wpcf7-form div label {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-family: "Sora";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  color: #4e4b66;
+}
+
+.wpcf7-form div input::placeholder,
+.wpcf7-form div select::placeholder {
+  color: #6e7191;
+}
+
+.wpcf7-form div input:focus-visible,
+.wpcf7-form div select:focus-visible,
+.wpcf7-form div textarea:focus-visible {
+  outline: 1px solid var(--gray05);
+}
+
+.wpcf7-form div input,
+.wpcf7-form div select,
+.wpcf7-form div textarea {
+  width: 100%;
+  height: 56px;
+  padding: 0 16px;
+  background: #f7f7fc;
+  border: 1px solid #d6d8e7;
+  border-radius: 4px;
+  font-family: "Sora";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  resize: none;
+  margin-bottom: 16px;
+}
+
+.wpcf7-form div textarea {
+  padding-top: 12px;
+  height: 100px;
+}
+
+.wpcf7-form div input[type="submit"] {
+  width: 100%;
+  background: var(--secondary);
+  border-radius: 4px;
+  color: #fff !important;
+  cursor: pointer;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  font-family: "Sora";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+  height: fit-content;
+  margin-top: 16px;
+}
+
+.wpcf7-list-item label {
+  display: flex !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  gap: 4px;
+}
+
+input[type="checkbox"] {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 2px;
+  border-color: blue !important;
+  border: 5px;
+  margin-bottom: 0px !important;
+}
+
+.wpcf7-list-item,
+.wpcf7-list-item label {
+  margin: 0px !important;
+}
+
+.modal_canais_distribuicoes .wpcf7-form div input,
+.modal_canais_distribuicoes .wpcf7-form div select,
+.modal_canais_distribuicoes .wpcf7-form div textarea {
+  margin-bottom: 0px;
+}
+
+.modal_trabalhe .wpcf7-form div input,
+.modal_trabalhe .wpcf7-form div select,
+.modal_trabalhe .wpcf7-form div textarea {
+  margin-bottom: 0px;
+}
+
+.modal_parceiros .wpcf7-form div input,
+.modal_parceiros .wpcf7-form div select,
+.modal_parceiros .wpcf7-form div textarea {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+  .wpcf7-form {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .left_contact{
+    position: static;
+  }
+
+  .section_contact {
+    padding: 60px 20px;
+  }
+
+  .section_contact .container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 678px) {
+  .right_contact {
+    padding: 24px;
+  }
+
+  .wpcf7-form p.body12 {
+    text-align: center;
+  }
+}

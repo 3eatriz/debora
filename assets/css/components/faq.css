@@ -1,0 +1,321 @@
+.page_home_faq input{
+  display: none;
+}
+
+.page_home_faq{
+  background: #F7F7FC;
+  padding: 128px 0;
+}
+
+.page_home_faq .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.home_faq_left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 808px;
+  text-align: center;
+}
+
+.faq_cards{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid #D6D8E7;
+}
+
+.home_faq_right{
+  width: 100%;
+  max-width: 784px;
+}
+
+.textos_faq{
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 12px;
+}
+
+.textos_faq img{
+  width: 25px;
+  height: 25px;
+}
+
+.img_faq_ativo{
+  display: none;
+}
+
+
+.label_faq{
+  cursor: pointer;
+}
+
+.faq_cards p{
+  display: none;
+  padding: 0 12px;
+}
+
+#pergunta1:checked + .faq_cards .p1_faq{
+  display: flex;
+}
+
+#pergunta1:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+}
+#pergunta1:checked + .faq_cards .p2_faq{
+  display: flex;
+}
+
+#pergunta1:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta2:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta2:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta3:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta3:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta4:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta4:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta5:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta5:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta6:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta6:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta7:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta7:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta8:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta8:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta9:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta9:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta10:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta10:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta11:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta11:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta12:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta12:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+#pergunta13:checked + .faq_cards p{
+  display: flex;
+}
+
+#pergunta13:checked + .faq_cards{
+  gap: 0px;
+  .img_faq_ativo{
+    display: flex;
+  }
+  .img_faq_hover{
+    display: none;
+  }
+
+  .img_faq_padrao{
+    display: none;
+  }
+}
+
+@media (max-width: 1224px) {
+
+  .page_home_faq{
+    padding: 64px 20px;
+  }
+
+  .page_home_faq .container{
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .home_faq_left{
+    align-items: center;
+    text-align: center;
+  }
+
+  .line_faq{
+    width: auto ;
+  }
+
+  .faq_cards{
+    gap: 16px;
+  }
+
+  .textos_faq{
+    gap: 8px;
+  }
+}

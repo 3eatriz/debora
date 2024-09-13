@@ -1,0 +1,49 @@
+.citacoes {
+  padding: 128px 130px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.citacoes .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  gap: 64px;
+}
+
+.box_citacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  
+}
+
+.top_citacao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.top_citacao img{
+  width: 24px;
+}
+
+.text_citacao {
+  text-align: center;
+
+  /* H - Regular/H4 - Regular */
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 155.99%;
+  /* 37.438px */
+  letter-spacing: -0.72px;
+}

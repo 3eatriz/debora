@@ -1,0 +1,42 @@
+.page_cta_components {
+    background: url(../../images/infraestrutura/bgcta.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page_cta_components .container {
+    padding: 72px 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 1041px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_cta_components hr {
+    border: none;
+    border-radius: 50px;
+    background: #FCAF17;
+    width: 56px;
+    height: 8px;
+}
+
+.duvidas_cta_components {
+    color: #FFF;
+
+    /* Body/Body16/Regular */
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+
+@media (max-width: 1224px) {
+    .page_cta_components .container {
+        padding: 64px 20px;
+    }
+}

@@ -1,0 +1,9 @@
+.button-cta {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--deb-bg, linear-gradient(95deg, #0B0D9F -3.88%, rgba(11, 13, 159, 0.95) 61.8%, rgba(11, 13, 159, 0.88) 100.19%));
+}

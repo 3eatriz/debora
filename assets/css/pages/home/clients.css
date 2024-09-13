@@ -1,0 +1,21 @@
+.page_home_clients {
+  padding: 64px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom_home_clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+@media (max-width: 768px) {
+  .page_home_clients {
+    padding: 60px 20px;
+  }
+
+  .top_home_clients {
+    text-align: center;
+  }
+}

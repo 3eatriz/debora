@@ -1,0 +1,69 @@
+.menu_inferior_resp {
+    border-radius: 12px 12px 0px 0px;
+    background: #FFF;
+    width: 100%;
+    max-width: 428px;
+    height: 93%;
+    overflow-y: auto;
+    padding: 18px 20px 38px;
+    top: 50px;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+    display: none;
+    z-index: 99999998;
+}
+
+.line_inicio_menu{
+    width: 45px;
+    height: 6px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #D9D9D9;
+    margin-bottom: 20px;
+}
+
+.conteudo_menu_inferior{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.service_card_inferior{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.logo_menu_inferior {
+    width: 67.329px;
+    height: 20px;
+}
+
+.menu_services {
+    color: #000;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 160% */
+}
+
+.line_service_menu {
+    width: 36px;
+    height: 8px;
+    border-radius: 50px;
+    background: #153F8D;
+}
+
+.card_service_menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

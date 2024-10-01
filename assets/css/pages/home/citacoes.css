@@ -1,9 +1,9 @@
 .citacoes {
-  padding: 128px 130px;
   background: #FFF;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 128px 0;
 }
 
 .citacoes .container {
@@ -14,24 +14,26 @@
   align-content: center;
   width: 100%;
   gap: 64px;
+  position: relative;
 }
 
 .box_citacao {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 16px;
-  
+
 }
 
-.top_citacao{
+.top_citacao {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 8px;
 }
 
-.top_citacao img{
+.top_citacao img {
   width: 24px;
 }
 
@@ -46,4 +48,156 @@
   line-height: 155.99%;
   /* 37.438px */
   letter-spacing: -0.72px;
+}
+
+.card_citacao {
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 12px;
+  background: rgba(85, 192, 224, 0.50);
+  width: 300px;
+}
+
+.card_citacao div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.pessoa_citacao {
+  /* Heading/Heading18/Extra-bold */
+  font-family: Sora;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  /* 133.333% */
+}
+
+.ocupacao_citacao {
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  /* 142.857% */
+}
+
+
+
+/* Slides */
+
+section.slider {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.slider-content {
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input {
+  display: none;
+}
+
+.slide-box {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  transition: 1s;
+}
+
+.nav-manual,
+.nav-auto {
+  position: absolute;
+  width: 100%;
+  bottom: 80px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-manual .manual-btn,
+.nav-auto div {
+  border: 3px var(--primary-dark);
+  background: #00000038;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+  margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover {
+  background: #0b0d9f96;
+  width: 13px;
+  height: 13px;
+}
+
+#radio1:checked~.nav-auto .auto-btn1 {
+  background: #0B0D9F;
+}
+
+#radio2:checked~.nav-auto .auto-btn2 {
+  background: #0B0D9F;
+}
+
+#radio3:checked~.nav-auto .auto-btn3 {
+  background: #0B0D9F;
+}
+
+#radio1:checked~.primeiro {
+  margin-left: 0%;
+}
+
+#radio2:checked~.primeiro {
+  margin-left: -25%;
+}
+
+#radio3:checked~.primeiro {
+  margin-left: -50%;
+}
+
+.citacoes .hover_secondary {
+  margin-top: 32px;
+}
+
+/* Fim Slides */
+
+@media (max-width: 1024px) {
+  .citacoes {
+    padding: 100px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .citacoes .container {
+    gap: 32px;
+  }
+
+  .citacoes .hover_secondary {
+    margin-top: 16px;
+  }
+
+  .citacoes {
+    padding: 60px 20px !important;
+  }
+
+  .top_citacao img {
+    width: 16px;
+  }
 }

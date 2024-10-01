@@ -1,4 +1,4 @@
-<section class="beneficios">
+<section class="beneficios" id="beneficios">
   <div class="container">
     <div class="top_beneficions">
       <img class="chat" src="<?= get_template_directory_uri() ?>/assets/images/beneficios/beneficios.png" alt="">

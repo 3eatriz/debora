@@ -298,6 +298,14 @@ button {
   transform: scale(0.98);
 }
 
+.button-cta{
+  transition: 0.5s;
+}
+
+a{
+  transition: 0.5s;
+}
+
 .button-cta:hover {
   transform: scale(0.98);
   cursor: pointer;

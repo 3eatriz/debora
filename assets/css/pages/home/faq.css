@@ -1,0 +1,296 @@
+.faq input {
+  display: none;
+}
+
+.faq {
+  background: url(../../../images/faq/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 130px;
+}
+
+.home_faq_left {
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.faq_right {
+  display: flex;
+  max-width: 709px;
+  width: 100%;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.50);
+  box-shadow: 8px 8px 12px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo_faq {
+  font-family: Overlock;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.182%;
+  /* 75.731px */
+  letter-spacing: -4.32px;
+}
+
+.faq_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid #D6D8E7;
+}
+
+.quests_faq {
+  display: flex;
+  max-width: 709px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.quest_faq {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.99%;
+  /* 28.078px */
+  letter-spacing: -0.54px;
+}
+
+.response_faq {
+  /* H - Regular/H6 - Regular */
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.99%;
+  /* 28.078px */
+  letter-spacing: -0.54px;
+}
+
+.textos_faq {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 12px;
+}
+
+.textos_faq img {
+  width: 25px;
+  height: 25px;
+}
+
+.img_faq_ativo {
+  display: none;
+}
+
+.label_faq {
+  cursor: pointer;
+  text-align: left;
+}
+
+.faq_cards p {
+  display: none;
+  padding: 0 12px;
+}
+
+#pergunta1:checked+.faq_cards .p1_faq {
+  display: flex;
+}
+
+#pergunta1:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+}
+
+#pergunta1:checked+.faq_cards .p2_faq {
+  display: flex;
+}
+
+#pergunta1:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+
+  .img_faq_padrao {
+    display: none;
+  }
+}
+
+#pergunta2:checked+.faq_cards p {
+  display: flex;
+}
+
+#pergunta2:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+
+  .img_faq_hover {
+    display: none;
+  }
+
+  .img_faq_padrao {
+    display: none;
+  }
+}
+
+#pergunta3:checked+.faq_cards p {
+  display: flex;
+}
+
+#pergunta3:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+
+  .img_faq_hover {
+    display: none;
+  }
+
+  .img_faq_padrao {
+    display: none;
+  }
+}
+
+#pergunta4:checked+.faq_cards p {
+  display: flex;
+}
+
+#pergunta4:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+
+  .img_faq_hover {
+    display: none;
+  }
+
+  .img_faq_padrao {
+    display: none;
+  }
+}
+
+#pergunta5:checked+.faq_cards p {
+  display: flex;
+}
+
+#pergunta5:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+
+  .img_faq_hover {
+    display: none;
+  }
+
+  .img_faq_padrao {
+    display: none;
+  }
+}
+
+#pergunta6:checked+.faq_cards p {
+  display: flex;
+}
+
+#pergunta6:checked+.faq_cards {
+  gap: 0px;
+
+  .img_faq_ativo {
+    display: flex;
+  }
+
+  .img_faq_hover {
+    display: none;
+  }
+
+  .img_faq_padrao {
+    display: none;
+  }
+}
+
+@media (max-width: 787px) {
+  .faq {
+    padding: 60px 20px;
+  }
+
+  .titulo_faq{
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .faq {
+    padding: 100px 20px;
+  }
+
+  .home_faq_left{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: none;
+  }
+}
+
+@media (max-width: 1224px) {
+
+  .faq {
+    padding: 100px 20px;
+  }
+
+  .faq .container {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .quests_faq {
+    align-items: center;
+    text-align: center;
+  }
+
+  .line_faq {
+    width: auto;
+  }
+
+  .faq_cards {
+    gap: 16px;
+  }
+
+  .textos_faq {
+    gap: 8px;
+  }
+}

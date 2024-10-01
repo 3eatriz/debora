@@ -4,9 +4,7 @@
 
 @import "./components/header.css";
 @import "./components/footer.css";
-@import "./components/contact.css";
 @import "./components/button-cta.css";
-@import "./components/faq.css";
 @import "./components/cta.css";
 @import "./components/thanks.css";
 @import "./components/button-menu-mobile.css";
@@ -19,8 +17,8 @@
 @import "./pages/home/sobre.css";
 @import "./pages/home/beneficios.css";
 @import "./pages/home/citacoes.css";
-@import "./pages/home/clients.css";
-@import "./pages/home/about.css";
+@import "./pages/home/faq.css";
+@import "./pages/home/contact.css";
 @import "./pages/home/blog.css";
 @import "./pages/home/digital.css";
 @import "./pages/home/solutions2.css";

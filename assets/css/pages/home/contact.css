@@ -1,0 +1,189 @@
+.contato {
+  padding: 128px 0;
+}
+
+.contato .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.top_contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  max-width: 620px;
+}
+
+.titulo_contato {
+  text-align: center;
+  font-family: Overlock;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.182%;
+  /* 42.073px */
+  letter-spacing: -2.4px;
+}
+
+.subtitulo_contato {
+  text-align: center;
+  /* H - Regular/H4 - Regular */
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.99%;
+  /* 37.438px */
+  letter-spacing: -0.72px;
+}
+
+/* Formulário */
+
+.formulario {
+  max-width: 536px;
+  width: 100%;
+  position: relative;
+}
+
+.contato .wpcf7 {
+  display: flex;
+  width: 100%;
+  padding: 48px;
+  align-items: center;
+  border-radius: 12px;
+  background: rgba(85, 192, 224, 0.50);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contato .wpcf7 form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.contato .wpcf7 form p {
+  width: 100%;
+}
+
+.contato .wpcf7 form label {
+  font-family: Overlock;
+  width: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.99%;
+  /* 31.198px */
+  letter-spacing: -0.6px;
+  color: #0C0FA0;
+}
+
+.contato .wpcf7 form label span input[type="text"],
+.contato .wpcf7 form label span input[type="email"],
+.contato .wpcf7 form label span input[type="tel"] {
+  width: 100%;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid var(--Grayscale-Gray05, #D6D8E7);
+  background: #FFF;
+  border: none;
+  padding: 0 16px;
+  font-family: Overlock;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 155.99%;
+  /* 31.198px */
+  letter-spacing: -0.6px;
+  color: #0C0FA0;
+}
+
+
+.contato .wpcf7 [type="text"]:focus,
+.contato input[type="email"]:focus,
+.contato input[type="tel"]:focus {
+  outline: none;
+}
+
+.contato .wpcf7 input[type="submit"] {
+  width: 100%;
+  display: flex;
+  padding: 15px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: var(--deb-bg, linear-gradient(95deg, #0B0D9F -3.88%, rgba(11, 13, 159, 0.95) 61.8%, rgba(11, 13, 159, 0.88) 100.19%));
+  color: #FFF;
+
+  /* Button/Button14 */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px;
+  /* 128.571% */
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contato .wpcf7 input[type="submit"]:hover{
+  transform: scale(0.98);
+}
+
+.contato_img1{
+  position: absolute;
+  top: -62px;
+  left: -340px;
+}
+
+.contato_img2{
+  position: absolute;
+  bottom: -160px;
+  right: -370px;
+}
+
+@media (max-width: 1240px) {
+  .contato_img1, .contato_img2{
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contato{
+    padding: 100px 20px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .contato {
+    padding: 60px 20px !important;
+  }
+
+  .subtitulo_contato{
+    font-size: 20px;
+  }
+
+  .titulo_contato{
+    font-size: 32px;
+  }
+  
+  .contato .container{
+    gap: 32px;
+  }
+
+  .contato .wpcf7{
+    padding: 24px;
+  }
+}

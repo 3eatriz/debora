@@ -1,4 +1,4 @@
-<section class="sobre">
+<section class="sobre" id="sobre">
     <div class="container">
         <img class="img_debora_sobre" src="<?= get_template_directory_uri() ?>/assets/images/sobre/debora.png" alt="">
         <div class="right_sobre">
